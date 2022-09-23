@@ -2,7 +2,7 @@
   "name": "a02-aw811502",
   "version": "1.0.0",
   "description": "Checks the weather and tells you whether you need your galoshes tomorrow.",
-  "main": "index.js",
+  "main": "cli.js",
   "scripts": {
     "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
   },
@@ -20,9 +20,8 @@
     "minimist": "^1.2.6",
     "moment-timezone": "^0.5.37",
     "node-fetch": "^3.2.10"
-  }
+  },
   "bin": {
     "galosh.js": "./cli.js"
-  },
-  "type": "module",
+  }
 }
