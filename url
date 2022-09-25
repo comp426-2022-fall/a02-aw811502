@@ -1,2 +1,0 @@
-America/New_York
-https://api.open-meteo.com/v1/forecast?latitude=35.93&longitude=-78.99&daily=precipitation_hours&current_weather=true&timezone=America%2FNew_York
